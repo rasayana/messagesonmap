@@ -15,6 +15,6 @@
 
 set -x
 
-export PUSHER_APP_ID=45950
-export PUSHER_APP_KEY=4bdf7582340af0cfeca8
-export PUSHER_APP_SECRET=e988fd1639dcdb8302da
+export PUSHER_APP_ID=xxx
+export PUSHER_APP_KEY=xxx
+export PUSHER_APP_SECRET=xxx
