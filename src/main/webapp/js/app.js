@@ -1,3 +1,19 @@
+var mapOptions = {
+			zoom : 2,
+			center : new google.maps.LatLng(40.46366700000001,
+					-3.7492200000000366),
+			mapTypeControlOptions : {
+				style : google.maps.MapTypeControlStyle.DROPDOWN_MENU
+			},
+			mapTypeId : google.maps.MapTypeId.ROADMAP,
+			zoomControlOptions : {
+				style : google.maps.ZoomControlStyle.SMALL
+			}
+		};
+
+var map = new google.maps.Map(document.getElementById('map-canvas'),
+				mapOptions);
+
 $("#messageForm").submit(function(event){
 	event.preventDefault();
 	$("#messageForm").mask("Sending Message ...");
